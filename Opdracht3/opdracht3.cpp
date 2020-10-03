@@ -3,14 +3,20 @@
 #include <string>
 
 
+
+int main()
+{
+	{//dit is een klein stukje 'scope' binnen je main class.
+
+	}
+}
 //Person
 int Person::getAge()
 {
 	return personAge;
 }
-void Person::setAge(int ageValue)
+void Person::setAge(int ageValue) : personAge(ageValue)
 {
-	personAge = ageValue;
 }
 
 std::string Person::getName()
@@ -34,9 +40,8 @@ void Student::setStudentAge(int ageValue)
 int Student::getStudentEC() {
 	return studentEC;
 }
-void Student::setStudentEC(int ecValue)
+void Student::setStudentEC(int ecValue) : studentEC(ecValue)
 {
-	studentEC = ecValue;
 }
 
 //Teacher
