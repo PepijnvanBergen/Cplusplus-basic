@@ -1,0 +1,4 @@
+﻿  Opdracht 7.cpp
+C:\Users\pepij\source\repos\Opdracht 7\Opdracht 7\Opdracht 7.cpp(43,12): warning C4552: '<<': result of expression not used
+C:\Users\pepij\source\repos\Opdracht 7\Opdracht 7\Opdracht 7.cpp(16,10): warning C4101: 'ch2': unreferenced local variable
+  Opdracht 7.vcxproj -> C:\Users\pepij\source\repos\Opdracht 7\Debug\Opdracht 7.exe

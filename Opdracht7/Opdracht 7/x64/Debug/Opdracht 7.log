@@ -1,0 +1,4 @@
+﻿  Opdracht 7.cpp
+D:\Games\Github\Cplusplus-basic\Opdracht7\Opdracht 7\Opdracht 7.cpp(44,12): warning C4552: '<<': result of expression not used
+D:\Games\Github\Cplusplus-basic\Opdracht7\Opdracht 7\Opdracht 7.cpp(17,10): warning C4101: 'ch2': unreferenced local variable
+  Opdracht 7.vcxproj -> D:\Games\Github\Cplusplus-basic\Opdracht7\x64\Debug\Opdracht 7.exe
