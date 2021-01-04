@@ -1,42 +1,31 @@
 #pragma once
 #include <string>
 
-//Person
-class Person
-{
-private:
-	int personAge;
-	std::string name = "";
+class Person {
+protected:
+	int age = 0;
 public:
-	int getAge();
-	void setAge(int ageValue);
-
+	Person(int age, std::string name)
+	int GetAge();
+	void SetAge(int value);
 	std::string getName();
-	void setName(std::string nameValue);
-};
- //Student
-class Student
-{
-private:
-	int studentAge;
-	int studentEC;
-public:
-	int getStudentAge();
-	void setStudentAge(int ageValue);
-
-	int getStudentEC();
-	void setStudentEC(int ecValue);
+	void SetName(std::string value);
 };
 
- //Teacher
-class Teacher {
+class Student : public Person {
 private:
-	std::string skills = "";
-	int teacherSalary;
+	int studentEC = 0;
 public:
-	std::string getTeacherSkills();
-	void setTeacherSkills(std::string skillValue);
+	Student(int age, std::string name, int studentEC);
+	int GetStudentEC();
+	void SetStudentEC(int value);
+};
 
-	int getTeacherSalary();
-	void setTeacherSalary(int salaryValue);
+class Teacher : public Person {
+private:
+	int teacherSalary = 0;
+public:
+	Teacher(int age, std::string name, int teacherSalary);
+	int GetTeacherSalary();
+	void SetTeacherSalary(int value);
 };
